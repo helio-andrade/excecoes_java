@@ -14,7 +14,7 @@ cd %diretorio%
 copy exception.sites exception.sites_BKP
 del exception.sites
 (for /l %%a in (0,1,8) do (
-echo !var[%%a]! >> exception.sites
+    echo !var[%%a]! >> exception.sites
 ))
 cls
 echo "Links adicionados com sucesso!"
